@@ -1,87 +1,79 @@
-# OOP_Project
-Digital Calender using C++ and OOP Concepts.
 
-📅 Digital Calendar in C++
-A Digital Calendar Application built using C++ that allows users to:
+# 📅 Digital Calendar in C++
 
-Print calendars (yearly & monthly)
+A **Digital Calendar Application** built using **C++ and OOP Concepts** that allows users to:
 
-Check today’s date
+* Print calendars (yearly & monthly)
+* Check today’s date
+* Calculate age
+* Add, Display, Edit, Remove Tasks
+* Set Reminders based on date
+* Search Tasks by Date
+* Check Leap Years
 
-Calculate age
+All tasks are saved persistently in a text file (`tasks.txt`).
 
-Add, Display, Edit, Remove Tasks
+---
 
-Set Reminders based on date
+## 🛠 Features
 
-Search Tasks by Date
+* **Calendar View**: View full-year or month-specific calendars.
+* **Current Date**: Display today’s date.
+* **Age Calculator**: Calculate age based on birth year.
+* **Task Management**:
 
-Check Leap Years
+  * Add new tasks with date.
+  * Display all tasks.
+  * Edit tasks.
+  * Remove tasks.
+* **Reminders**: Get reminders for tasks scheduled for the current date.
+* **Search Tasks by Date**.
+* **Leap Year Checker**.
 
-All tasks are saved persistently in a text file (tasks.txt).
+---
 
-🛠 Features
-Calendar View: View full-year or month-specific calendars.
+## 📂 File Structure
 
-Current Date: Display today’s date.
-
-Age Calculator: Calculate age based on birth year.
-
-Task Management:
-
-Add new tasks with date.
-
-Display all tasks.
-
-Edit tasks.
-
-Remove tasks.
-
-Reminders: Check if you have any tasks for the current day.
-
-Search Tasks by Date.
-
-Leap Year Checker.
-
-📂 File Structure
-bash
-Copy
-Edit
-Digital-Calendar/
+```
+OOP_Project/
 │
-├── tasks.txt           # Stores tasks persistently
+├── tasks.txt           # Stores tasks persistently (Keep empty initially)
 ├── calendar.cpp        # Main C++ source code
-└── README.md           # Project Documentation (This file)
-🖥️ How to Run
-Prerequisites:
-C++ Compiler (G++ or any IDE like CodeBlocks, Dev-C++, Visual Studio)
+└── README.md            # Project Documentation (This file)
+```
 
-Steps:
-Clone or download this repository.
+---
 
-Make sure calendar.cpp and tasks.txt are in the same directory.
+## 🖥️ How to Run
 
-Open terminal (or IDE terminal) in that directory.
+### Prerequisites:
 
-Compile the code:
+* C++ Compiler (G++, CodeBlocks, Dev-C++, Visual Studio, etc.)
 
-bash
-Copy
-Edit
-g++ calendar.cpp -o calendar
-Run the executable:
+### Steps:
 
-bash
-Copy
-Edit
-./calendar     # For Linux/Mac
-calendar.exe   # For Windows (or just double-click the EXE file)
-📄 Usage Instructions
-Upon running, a menu will be displayed:
+1. **Clone or Download this Repository**.
+2. Ensure `calendar.cpp` and `tasks.txt` are in the same directory.
+3. Open Terminal/Command Prompt in that directory.
+4. Compile the code:
 
-mathematica
-Copy
-Edit
+   ```bash
+   g++ calendar.cpp -o calendar
+   ```
+5. Run the executable:
+
+   ```bash
+   ./calendar     # For Linux/Mac
+   calendar.exe   # For Windows (or double-click the EXE file)
+   ```
+
+---
+
+## 📋 Usage Instructions
+
+When you run the program, a menu will appear:
+
+```
 1. Print Calendar
 2. Check Today's Date
 3. Calculate Age
@@ -90,17 +82,26 @@ Edit
 6. To Search Task
 7. Reminder
 8. Exit
-You can navigate through various functionalities by entering respective choices.
+```
 
-Task Storage
-All tasks are saved in tasks.txt file.
+Navigate through the menu by entering the corresponding choice number.
 
-Format: DD/MM/YYYY: Task description
+---
 
-📝 Example
-mathematica
-Copy
-Edit
+### 🗃 Task Storage
+
+* All tasks are saved in `tasks.txt`.
+* Format:
+
+  ```
+  DD/MM/YYYY: Task description
+  ```
+
+---
+
+## 📝 Example Usage
+
+```
 Enter Your Choice: 4
 
 1. Add New Task
@@ -112,34 +113,44 @@ Enter Your Choice: 1
 Enter the task: Submit Project Report
 Enter the date for the task (DD/MM/YYYY): 05/08/2025
 Task added successfully!
-📌 Key Concepts Used
-Object-Oriented Programming (Classes & Static Methods)
+```
 
-File Handling (fstream)
+---
 
-Time & Date (ctime)
+## 📌 Key Concepts Used
 
-Arrays & Vectors for Task Management
+* Object-Oriented Programming (Classes & Static Methods)
+* File Handling (`fstream`)
+* Date & Time Handling (`ctime`)
+* Arrays & Vectors for Task Management
+* Switch-Case Menus for Navigation
 
-Switch-Case Menus
+---
 
-🚀 Future Enhancements
-Categorize tasks (e.g., Work, Personal, Meeting).
+## 🚀 Future Enhancements
 
-Task Notifications in real-time.
+* Categorize tasks (Work, Personal, Meetings)
+* Task Notifications in real-time
+* GUI-based Interface (Qt/Other Frameworks)
+* Recurring Task Support
+* Save tasks in JSON/Database for structured management
 
-GUI-based interface using Qt/other frameworks.
+---
 
-Recurring task support.
+## 👩‍💻 Author
 
-Save tasks in JSON/Database for structured management.
+**Shreya Jalmi**
+\[NIT Goa | GirlScript Summer of Code Contributor]
+GitHub: [@SvJalmi](https://github.com/SvJalmi)
 
-🧑‍💻 Author
-Shreya Jalmi
-[NIT Goa | GirlScript Summer of Code Contributor]
-GitHub: @SvJalmi
+---
 
-🖇 License
-This project is for learning purposes and open-source. Feel free to fork and modify.
+## 🖇 License
+
+This project is open-source and free for learning purposes. Feel free to fork and modify!
+
+
+
+
 
 
