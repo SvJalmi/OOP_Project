@@ -1,6 +1,6 @@
-
-# 📅 Digital Calendar in C++
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# 📅 Digital Calendar in C++
+
 
 A **Digital Calendar Application** built using **C++ and OOP Concepts** that allows users to:
 
